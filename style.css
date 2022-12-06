@@ -117,7 +117,34 @@ img {
     right: 1rem;
 }
 
+/* Volunteer Page - Spacer */
+.splitter {
+    height: 25px;
+    width: 100%;
+}
 
+.what {
+    background-color: rgba(48, 196, 48, .5);
+}
+
+.how {
+    background-color:rgba(57, 181, 231, .5)
+}
+
+.volunteer {
+    background-color: rgba(189, 122, 222, .5);
+}
+
+.business {
+    background-color: rgba(206, 102, 67, .5);
+}
+
+.donateItems {
+    background-image: url(Images/groceries.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 1;
+}
 
 /* MEDIA QUERIES  */
 @media only screen and (max-width: 991px) {
