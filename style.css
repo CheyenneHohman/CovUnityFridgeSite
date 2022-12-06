@@ -2,7 +2,11 @@ body {
   width: 90%;
   margin: auto;
 }
-
+/* Nav */
+.navbar-nav {
+    justify-content: center;
+    align-items: center;
+}
 
 /* CAROUSEL CSS SECTION */
 .carousel {
@@ -69,6 +73,32 @@ body {
 }
 .carousel-button.next {
     right: 1rem;
+}
+
+/* Footer */
+footer {
+    background-color: rgb(244, 160, 160);
+    padding: 10px;
+    text-align: center;
+    margin-top: 40px;
+    border-radius: 5px;
+    width: 100%;
+}
+
+/* Media Icons */
+.fa-brands{
+    font-size: 30px;
+    text-decoration: none;
+    letter-spacing: 30px;
+    position:relative;
+}
+
+.fa-facebook{
+    color: #4267b2;
+}
+
+.fa-instagram{
+    color: #c13584;
 }
 
 
