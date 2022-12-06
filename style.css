@@ -2,10 +2,60 @@ body {
   width: 90%;
   margin: auto;
 }
+
+
+#accessibility {
+    margin: auto;
+}
+
+#accessibility > ul {
+    list-style: none;
+    border-radius: 5px;
+    background-color: rgb(227, 231, 227);
+    max-width: 400px;
+    font-size: 1.1rem;
+}
+
+/* Bus Line CSS Styling */
+
+a {
+    color: #000;
+    display: block;
+    text-decoration: none;
+}
+
+li > #seven:hover {
+    color: #fff;
+    background-color: #008000;
+}
+
+li > #eight:hover {
+    color: #fff;
+    background-color: #7AB800;
+}
+
+li > #sixty-one:hover {
+    color: #fff;
+    background-color: #6FD4E4;
+}
+
+img {
+    width: 100%;
+    height: auto;
+    position: relative;
+}
+
+#fridge-diagram {
+    width: 90%;
+    height: auto;
+    position: relative;
+}
+
 /* Nav */
 .navbar-nav {
     justify-content: center;
     align-items: center;
+
 }
 
 /* CAROUSEL CSS SECTION */
@@ -75,6 +125,29 @@ body {
     right: 1rem;
 }
 
+
+/* Volunteer Page - Spacer */
+.splitter {
+    height: 25px;
+    width: 100%;
+}
+
+.what {
+    background-color: rgba(48, 196, 48, .5);
+}
+
+.how {
+    background-color:rgba(57, 181, 231, .5)
+}
+
+.volunteer {
+    background-color: rgba(189, 122, 222, .5);
+}
+
+.business {
+    background-color: rgba(206, 102, 67, .5);
+}
+=======
 /* Footer */
 footer {
     background-color: rgb(244, 160, 160);
@@ -102,6 +175,12 @@ footer {
 }
 
 
+.donateItems {
+    background-image: url(Images/groceries.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 1;
+}
 
 /* MEDIA QUERIES  */
 @media only screen and (max-width: 991px) {
