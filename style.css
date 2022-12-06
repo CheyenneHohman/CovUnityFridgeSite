@@ -132,15 +132,15 @@ img {
     width: 100%;
 }
 
-.what {
+.what, .visit {
     background-color: rgba(48, 196, 48, .5);
 }
 
-.how {
+.how, .fridgeContents{
     background-color:rgba(57, 181, 231, .5)
 }
 
-.volunteer {
+.volunteer, .bus {
     background-color: rgba(189, 122, 222, .5);
 }
 
@@ -175,12 +175,16 @@ footer {
     color: #c13584;
 }
 
-
 .donateItems {
-    background-image: url(Images/groceries.jpg);
-    background-repeat: no-repeat;
+    min-height: 300px;
+    background-image: url("Images/groceries.jpg");
+    background-position: center;
     background-size: cover;
-    opacity: 1;
+    padding: 20px;
+    color: #fff;
+    filter: brightness (10%);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7),
+     rgba(0, 0, 0, 0.7)), url("Images/groceries.jpg");
 }
 
 /* MEDIA QUERIES  */
