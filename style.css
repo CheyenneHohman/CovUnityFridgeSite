@@ -125,6 +125,11 @@ img {
     right: 1rem;
 }
 
+/* About Us Page */
+
+#volguide {
+    background-color: lightblue;
+}
 
 /* Volunteer Page - Spacer */
 .splitter {
