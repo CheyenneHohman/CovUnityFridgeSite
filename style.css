@@ -15,6 +15,12 @@ body {
     max-width: 400px;
     font-size: 1.1rem;
 }
+/* Nav */
+.navbar-brand:hover {
+    background-color: rgb(244, 160, 160);
+    transition: 0.4s;
+    border-radius: 5px;
+}
 
 /* Bus Line CSS Styling */
 
@@ -51,12 +57,6 @@ img {
     position: relative;
 }
 
-/* Nav */
-.navbar-nav {
-    justify-content: center;
-    align-items: center;
-
-}
 
 /* CAROUSEL CSS SECTION */
 .carousel {
