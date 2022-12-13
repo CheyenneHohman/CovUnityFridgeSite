@@ -133,19 +133,19 @@ img {
     width: 100%;
 }
 
-.what, .visit {
+.what, .visit, .goals {
     background-color: rgba(48, 196, 48, .5);
 }
 
-.how, .fridgeContents{
+.how, .fridgeContents, .history {
     background-color:rgba(57, 181, 231, .5)
 }
 
-.volunteer, .bus {
+.volunteer, .bus, .location {
     background-color: rgba(189, 122, 222, .5);
 }
 
-.business {
+.business, .people {
     background-color: rgba(206, 102, 67, .5);
 }
 
