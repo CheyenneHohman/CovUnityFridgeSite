@@ -13,7 +13,8 @@ body {
     border-radius: 5px;
     background-color: rgb(227, 231, 227);
     max-width: 400px;
-    font-size: 1.1rem;
+    font-size: 1.2rem;
+    padding: 10px;
 }
 /* TODO change font? round corner, Indication when selected, icon from font awesome/flat icon, attribute icon at bottom of page */
 /* Nav */
