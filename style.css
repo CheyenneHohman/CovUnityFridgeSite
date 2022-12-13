@@ -15,11 +15,22 @@ body {
     max-width: 400px;
     font-size: 1.1rem;
 }
+/* TODO Larger text, center items, change font, round corner, changing size when selected, logo h1 others h2 sizes, icon from font awesome/flat icon */
 /* Nav */
 .navbar-brand:hover {
     background-color: rgb(244, 160, 160);
     transition: 0.4s;
-    border-radius: 5px;
+    border-radius: 8px;
+}
+
+.title-space {
+    margin-left: 35%;
+    font-size: 29px;
+}
+
+/* Volunteer Get Involed Section */
+.involved-space {
+    margin-left: 30px;
 }
 
 /* Bus Line CSS Styling */
