@@ -133,7 +133,7 @@ img {
     width: 100%;
 }
 
-.what, .visit, a>.volguide {
+.what, .visit {
     background-color: rgba(48, 196, 48, .5);
 }
 
