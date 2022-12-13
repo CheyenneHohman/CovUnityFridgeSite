@@ -15,17 +15,53 @@ body {
     max-width: 400px;
     font-size: 1.1rem;
 }
-/* TODO Larger text, center items, change font, round corner, changing size when selected, logo h1 others h2 sizes, icon from font awesome/flat icon */
+/* TODO change font? round corner, Indication when selected, icon from font awesome/flat icon */
 /* Nav */
+.title-space {
+    margin-left: 35%;
+    font-size: 31px;
+}
+
 .navbar-brand:hover {
     background-color: rgb(244, 160, 160);
     transition: 0.4s;
     border-radius: 8px;
 }
 
-.title-space {
-    margin-left: 35%;
-    font-size: 29px;
+.nav-item {
+    position: static;
+    text-align: right;
+    margin-right: 6%;
+    font-size: 20px;
+}
+
+.navbar-toggler:hover {
+    background-color: rgb(244, 160, 160);
+    transition: 0.4s;
+    border-radius: 8px;
+}
+
+.navbar-toggler {
+    margin-right: 5%;
+}
+
+.nav-link-one:hover {
+    background-color: rgb(244, 160, 160);
+    transition: 0.4s;
+    border-radius: 8px;
+    text-decoration-line: underline;
+}
+
+.nav-link-two {
+    /* Todo Move volunteer */
+}
+
+.nav-link-two:hover {
+    background-color: rgb(244, 160, 160);
+    transition: 0.4s;
+    border-radius: 8px;
+    text-transform: strong;
+
 }
 
 /* Volunteer Get Involed Section */
