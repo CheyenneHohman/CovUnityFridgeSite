@@ -15,53 +15,82 @@ body {
     max-width: 400px;
     font-size: 1.1rem;
 }
-/* TODO change font? round corner, Indication when selected, icon from font awesome/flat icon */
+/* TODO change font? round corner, Indication when selected, icon from font awesome/flat icon, attribute icon at bottom of page */
 /* Nav */
+.navbar {
+    background-image:url(Images/foodspread.jpg);
+    border-color: rgb(17, 16, 16);
+    border-style: solid;
+}
+
 .title-space {
-    margin-left: 35%;
-    font-size: 31px;
+    margin-left: 33%;
+    margin-right: 50%;
+    font-size: 35px;
+    padding: 8px;
+    background-color: #8bd9e8b6;
+    border-radius: 4px;
+    border-color: rgb(17, 16, 16);
+    border-width: 2px;
+    border-style: solid;
+}
+.navbar-nav{
+    position: absolute;
+    right: 0;
+    top: 91px;
+    background-color: rgb(244, 160, 160);
+
 }
 
 .navbar-brand:hover {
     background-color: rgb(244, 160, 160);
-    transition: 0.4s;
+    transition: 0.7s;
+    transition-duration: 0.5s;
     border-radius: 8px;
 }
 
 .nav-item {
-    position: static;
     text-align: right;
-    margin-right: 6%;
-    font-size: 20px;
+    font-size: 25px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-style: solid;
+    border-width: 1px;
 }
 
 .navbar-toggler:hover {
     background-color: rgb(244, 160, 160);
-    transition: 0.4s;
+    transition: 0.1s;
     border-radius: 8px;
 }
 
 .navbar-toggler {
-    margin-right: 5%;
+    font-size: 20px;
+    margin-right: 25px;
+    position: absolute;
+    right: 4px;
+    top: 23px;
+    border-width: 3px;
+    border-color: rgb(17, 16, 16);
+    background-color: #8bd8e8e9;
 }
 
-.nav-link-one:hover {
-    background-color: rgb(244, 160, 160);
-    transition: 0.4s;
-    border-radius: 8px;
-    text-decoration-line: underline;
+/* .nav-link-one:hover {} */
+/* .nav-link-two:hover {} */
+
+.nav-link-one {
+    text-align: start;
+    margin-left: 16px;
 }
 
-.nav-link-two {
-    /* Todo Move volunteer */
+
+.nav-item:hover {
+    background-color: #8bd8e8e9;
+    font-weight: 500;
 }
 
-.nav-link-two:hover {
-    background-color: rgb(244, 160, 160);
-    transition: 0.4s;
-    border-radius: 8px;
-    text-transform: strong;
-
+.nav-item a {
+    color: #000;
 }
 
 /* Volunteer Get Involed Section */
