@@ -211,18 +211,22 @@ img {
 
 .what, .visit, .goals {
     background-color: rgba(48, 196, 48, .5);
+    padding: 15px;
 }
 
 .how, .fridgeContents, .history {
-    background-color:rgba(57, 181, 231, .5)
+    background-color:rgba(57, 181, 231, .5);
+    padding: 15px;
 }
 
 .volunteer, .bus, .location {
     background-color: rgba(189, 122, 222, .5);
+    padding: 15px;
 }
 
 .business, .people {
     background-color: rgba(206, 102, 67, .5);
+    padding: 15px;
 }
 
 
