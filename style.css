@@ -33,9 +33,9 @@ body {
 
 .title-space {
     position:relative;
-    margin-left: 33%;
-    margin-right: 50%;
-    /* text-align: start; */
+    top: 50%;
+    left: 35%;
+    text-align: center;
     font-size: 35px;
     padding: 8px;
     background-color: #8bd9e8cb;
@@ -291,7 +291,7 @@ footer {
         display: none;
     }
     .title-space {
-        margin-left: 25%;
+        left: 25%;
     }
 }
 
@@ -303,6 +303,6 @@ footer {
 
 @media only screen and (max-width: 600px) {
     .title-space{
-        margin-left: 20%;
+        left: 16%;
     }
 }
