@@ -290,10 +290,19 @@ footer {
     #desktopmap { 
         display: none;
     }
+    .title-space {
+        margin-left: 25%;
+    }
 }
 
 @media only screen and (min-width: 992px) {
     #mobilemap {
         display: none;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .title-space{
+        margin-left: 20%;
     }
 }
