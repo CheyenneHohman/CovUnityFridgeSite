@@ -24,8 +24,10 @@ body {
 }
 
 .title-space {
+    position:relative;
     margin-left: 33%;
     margin-right: 50%;
+    /* text-align: start; */
     font-size: 35px;
     padding: 8px;
     background-color: #8bd9e8b6;
